@@ -1,0 +1,104 @@
+ 
+body {
+    font-family: monospace(100 300  700);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+     }
+
+    html,
+    body {
+        height: 100%;
+    
+}
+.container {
+    max-width:1366px;
+    min-width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    
+}
+
+.header {
+    height: 900px;
+   background-image:url(imag/macket.jpg)
+}
+.header. logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+.menu {
+    float: right;
+    margin-right: 251px;
+    margin-top: 67px;
+}
+.menu li {
+    float: left;
+    list-style-type: none;
+   
+}
+.menu li a {
+     font-family: monospace;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 350px;
+    line-height: 48px;
+    text-decoration:none;
+    display: block;
+    padding: 0 120px;
+}
+
+.menu li a:hover {
+   color: #212121;
+    border-bottom: 1px solid black;
+}
+.text{
+    width: 458px;
+    margin-top: 10px;
+    margin-left: 90px;
+    
+}
+.text p{
+    color:dimgrey;
+    font-size: 16px;
+    font-weight: 30;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 200px;
+}
+.clearfix {
+    clear: both;
+}
+.clr {
+    height: 300px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -290px;
+    
+}
+@media screen and ( max-width: ) {
+    .main .block {
+        width: 50%;
+        margin: 3% 3,5%;
+    }
+    
+}
+
+.main a {
+    list-style-type: none;
+    width: 30%;
+    height: 300px;
+    outline: 1px blue;
+    margin: 1% 1,5%;
+    border: 1px;
+    float:right;
+}
+.contact { 
+    margin-top: 80px;
+    text-align: left;
+    
+}
